@@ -3,12 +3,12 @@ import HoverCard from "../components/HoverCard";
 export default function Home() {
   return (
     <div>
-      <div className="max-w-6xl mx-auto h-screen">
+      <div className="max-w-6xl mx-auto h-160">
         <div className="max-w-lg py-16 px-12 ">
-          <h1 className="text-4xl text-white">
+          <h1 className="text-6xl text-white">
             Lorem ipsum dolor sit amet consectetur.
           </h1>
-          <h4 className="text-white">
+          <h4 className="text-white text-lg">
             Explicabo necessitatibus deleniti dolores blanditiis quas eveniet
             aut deserunt aspernatur quibusdam ducimus hic ut.
           </h4>
