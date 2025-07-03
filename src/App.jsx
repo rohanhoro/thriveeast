@@ -7,6 +7,7 @@ import Layout from "./pages/Layout";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import TermsAndConditions from "./pages/TermsAndConditions";
+import Privacy from "./pages/Privacy";
 
 const routes = [
   {
@@ -29,7 +30,11 @@ const routes = [
     path: "terms",
     element: <TermsAndConditions />,
   },
-  
+  {
+    id: 5,
+    path: "privacy",
+    element: <Privacy />,
+  },
 ];
 
 function App() {
