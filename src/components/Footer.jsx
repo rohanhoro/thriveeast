@@ -26,6 +26,11 @@ export default function Footer() {
                   Projects
                 </Link>
               </li>
+              <li>
+                <Link to="/team" className="hover:text-gray-400">
+                  Meet Our Team
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -78,7 +83,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="text-center mt-8 text-sm text-gray-400">
-        &copy; {new Date().getFullYear()} CompanyName. All rights reserved.
+        &copy; {new Date().getFullYear()} ThriveEast LLP. All rights reserved.
       </div>
     </footer>
   );
