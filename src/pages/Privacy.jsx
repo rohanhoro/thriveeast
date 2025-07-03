@@ -1,6 +1,6 @@
 const PrivacyPolicy = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white text-justify">
       <div className="font-sans leading-relaxed p-5 md:p-10 max-w-3xl mx-auto text-gray-900 bg-white">
         <h1 className="text-3xl md:text-4xl font-bold text-teal-900 border-b-2 border-[#c2a661] pb-2 mb-4">
           Thrive East – Privacy Policy

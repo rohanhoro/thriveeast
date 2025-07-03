@@ -43,7 +43,7 @@ export default function AboutUs() {
             </p>
           </div>
           <div>
-            <h4 className="text-xl font-medium mb-4">EastNest</h4>
+            <h4 className="text-xl font-medium mb-1">EastNest</h4>
             <p className="mb-4">“Boutique Homestays with Soul”</p>
             <p className="mb-4">
               Handpicked stays rooted in local culture, designed for travelers
@@ -51,7 +51,7 @@ export default function AboutUs() {
             </p>
           </div>
           <div>
-            <h4 className="text-xl font-medium mb-4">
+            <h4 className="text-xl font-medium mb-1">
               The Eastside Chronicles
             </h4>
             <p className="mb-4">“Event Styling & Management”</p>
@@ -61,7 +61,7 @@ export default function AboutUs() {
             </p>
           </div>
           <div>
-            <h4 className="text-xl font-medium mb-4">Thrive East Studio</h4>
+            <h4 className="text-xl font-medium mb-1">Thrive East Studio</h4>
             <p className="mb-4">“Your Creative Production House”</p>
             <p className="mb-4">
               Bring your vision to life with cinematic ad films, reels, short
@@ -70,7 +70,7 @@ export default function AboutUs() {
             </p>
           </div>
           <div>
-            <h4 className="text-xl font-medium mb-4">Thrive Kits</h4>
+            <h4 className="text-xl font-medium mb-1">Thrive Kits</h4>
             <p className="mb-4">“Curated Self-Care & Gifting Boxes”</p>
             <p>
               Emotions, beautifully boxed. Bespoke gifts, perfumes, and
