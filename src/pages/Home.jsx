@@ -1,40 +1,58 @@
+import event from "../assets/event_small.jpg";
+import gift from "../assets/gift_small.jpg";
+import homestay from "../assets/homestay_small.jpg";
+import property from "../assets/property_small.jpg";
+import studio from "../assets/studio_small.jpg";
+import Button from "../components/Button";
 import HoverCard from "../components/HoverCard";
 
 export default function Home() {
   return (
     <div>
-      <div className="max-w-6xl mx-auto h-160">
-        <div className="max-w-lg py-16 px-12 ">
-          <h1 className="text-6xl text-white">
-            Lorem ipsum dolor sit amet consectetur.
-          </h1>
-          <h4 className="text-white text-lg">
-            Explicabo necessitatibus deleniti dolores blanditiis quas eveniet
-            aut deserunt aspernatur quibusdam ducimus hic ut.
-          </h4>
+      <div className="from-black/70 bg-linear-to-r">
+        <div className="max-w-6xl mx-auto h-160  ">
+          <div className="max-w-2xl py-16 px-12 ">
+            <h1 className="text-6xl text-white mb-8 font-[Playfair]">
+              Hybrid lifestyle ecosystem
+            </h1>
+            <h4 className="text-white text-xl leading-none font-[Playfair] mb-8">
+              Thrive East is your invitation to live beautifully. We craft
+              styled events that linger in memory, gifts that speak from the
+              heart, stays that feel like coming home, and property care that
+              brings true peace of mind. And for the dreamers and visionaries?
+              Our Studio turns your ideas into art — with creative direction and
+              design that whisper elegance at every turn.
+            </h4>
+            <Button text={"Book a free consultation"} />
+          </div>
         </div>
       </div>
-      <div className=" bg-white">
+      <div className=" bg-[#043029]">
         <div className=" flex gap-4 max-w-6xl mx-auto py-16 px-12">
           <HoverCard
             title={"EastNest Property Care"}
             content={"Property Care and Management"}
+            image={property}
           />
           <HoverCard
             title={"EASTNEST"}
             content={"Curated Homestays and Airbnb"}
+            image={homestay}
           />
           <HoverCard
             title={"The Eastside Chronicles"}
             content={"Event Management"}
+            image={event}
           />
           <HoverCard
             title={"Thrive East Studios"}
             content={"Designing and Production"}
+            image={studio}
           />
           <HoverCard
             title={"Thrive Kits"}
             content={"Curated and Personalized Gifting"}
+            image={gift}
           />
         </div>
       </div>

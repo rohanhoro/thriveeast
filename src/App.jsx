@@ -1,13 +1,12 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
-import Button from "./components/Button";
 import AboutUs from "./pages/AboutUs";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
+import Privacy from "./pages/Privacy";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import TermsAndConditions from "./pages/TermsAndConditions";
-import Privacy from "./pages/Privacy";
 
 const routes = [
   {
@@ -38,6 +37,7 @@ const routes = [
 ];
 
 function App() {
+
   return (
     <Router>
       <Routes>

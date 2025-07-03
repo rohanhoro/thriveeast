@@ -2,7 +2,9 @@ export default function Services() {
   return (
     <div className="bg-white">
       <div className="p-5 md:p-10 max-w-3xl mx-auto text-gray-900 bg-white">
-        <h1 className="xt-3xl md:text-4xl font-bold text-teal-900 border-b-2 border-[#c2a661] pb-2 mb-4">Thrive East – Terms and Conditions</h1>
+        <h1 className="xt-3xl md:text-4xl font-bold text-teal-900 border-b-2 border-[#c2a661] pb-2 mb-4">
+          Thrive East – Terms and Conditions
+        </h1>
         <p className="mb-2">
           <strong>Effective Date:</strong> [Insert Date]
         </p>
@@ -28,9 +30,13 @@ export default function Services() {
           <li>Thrive East Studio</li>
         </ul>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">1. General Terms</h2 >
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            1. General Terms
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">1.1 Scope</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            1.1 Scope
+          </h3>
 
           <p className="mb-4">
             These Terms apply to all transactions, services, and interactions
@@ -39,7 +45,9 @@ export default function Services() {
             stated.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">1.2 Amendments</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            1.2 Amendments
+          </h3>
 
           <p className="mb-4">
             Thrive East reserves the right to update or modify these Terms at
@@ -47,18 +55,30 @@ export default function Services() {
             such changes constitutes acceptance of the revised Terms.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">1.3 Governing Law</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            1.3 Governing Law
+          </h3>
 
-          <p className="mb-4">These Terms are governed by the laws of [Your State/Country].</p>
+          <p className="mb-4">
+            These Terms are governed by the laws of [Your State/Country].
+          </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">1.4 Contact</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            1.4 Contact
+          </h3>
 
           <p className="mb-4">For inquiries or concerns:</p>
 
           <ul className="list-disc pl-6 space-y-1">
-            <li>Email: [your-email@example.com]</li>
+            <li>
+              <a href="mailto:thriveeastinfo@gmail.com?subject=Inquiry%20About%20Your%20Services">
+                Email: thriveeastinfo@gmail.com
+              </a>
+            </li>
 
-            <li>Phone: [your-phone-number]</li>
+            <li>
+              <a href="tel:+919678039205">Phone: +91-9678039205</a>
+            </li>
 
             <li>Website: [your-website.com]</li>
 
@@ -66,16 +86,22 @@ export default function Services() {
           </ul>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2" >2. The Eastside Chronicles – Events & Styling</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            2. The Eastside Chronicles – Events & Styling
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">2.1 Services</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            2.1 Services
+          </h3>
 
           <p className="mb-4">
             We provide event design, styling, and management services, with
             deliverables as defined in individual proposals or contracts.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">2.2 Bookings and Payment</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            2.2 Bookings and Payment
+          </h3>
 
           <p className="mb-4">
             Bookings are confirmed upon receipt of a deposit or full payment, as
@@ -83,7 +109,9 @@ export default function Services() {
             invoices. Delayed payments may affect service delivery.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">2.3 Cancellations and Refunds</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            2.3 Cancellations and Refunds
+          </h3>
 
           <p className="mb-4">
             All cancellations must be submitted in writing. Refund eligibility
@@ -91,14 +119,18 @@ export default function Services() {
             typically non-refundable.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">2.4 Client Obligations</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            2.4 Client Obligations
+          </h3>
 
           <p className="mb-4">
             Clients must provide accurate event details, approve plans promptly,
             and ensure venue access and necessary permits.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">2.5 Our Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            2.5 Our Responsibilities
+          </h3>
 
           <p className="mb-4">
             We will deliver services as agreed, maintain professional
@@ -107,23 +139,31 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">3. EastNest – Homestay Experiences</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            3. EastNest – Homestay Experiences
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">3.1 Services</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.1 Services
+          </h3>
 
           <p className="mb-4">
             We facilitate bookings and management of curated homestay
             accommodations, as described in property listings or confirmations.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">3.2 Bookings and Payment</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.2 Bookings and Payment
+          </h3>
 
           <p className="mb-4">
             Bookings require payment as per listing or agreement. Accepted
             payment methods are specified on our website.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">3.3 Cancellations and Refunds</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.3 Cancellations and Refunds
+          </h3>
 
           <p className="mb-4">
             Cancellation policies follow the listing terms (e.g., flexible,
@@ -131,14 +171,18 @@ export default function Services() {
             deposits may be retained for verified damages.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">3.4 Guest Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.4 Guest Responsibilities
+          </h3>
 
           <p className="mb-4">
             Guests must comply with house rules, respect local laws, and report
             any damages promptly.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">3.5 Our Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.5 Our Responsibilities
+          </h3>
 
           <p className="mb-4">
             We will ensure accurate listing information, facilitate check-in and
@@ -146,23 +190,31 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">4. EastNest Property Care – Property Management</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            4. EastNest Property Care – Property Management
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">4.1 Services</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            4.1 Services
+          </h3>
 
           <p className="mb-4">
             We provide property management services, with scope defined in
             individual service agreements.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">4.2 Bookings and Payment</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            4.2 Bookings and Payment
+          </h3>
 
           <p className="mb-4">
             Fees and billing cycles are detailed in contracts. Advance or
             monthly payments may be required.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">4.3 Termination</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            4.3 Termination
+          </h3>
 
           <p>
             Termination requires advance notice as per the service agreement.
@@ -170,7 +222,9 @@ export default function Services() {
             finalized.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">4.4 Client Obligations</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            4.4 Client Obligations
+          </h3>
 
           <p className="mb-4">
             Clients must provide property access, maintain the property to
@@ -178,7 +232,9 @@ export default function Services() {
             manner.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">4.5 Our Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            4.5 Our Responsibilities
+          </h3>
 
           <p className="mb-4">
             We will manage bookings, conduct inspections, handle guest
@@ -186,30 +242,40 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">5. Thrive Kits – Lifestyle Products</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            5. Thrive Kits – Lifestyle Products
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">5.1 Products</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            5.1 Products
+          </h3>
 
           <p className="mb-4">
             We offer curated lifestyle and gifting products as described in our
             listings.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">5.2 Orders and Payment</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            5.2 Orders and Payment
+          </h3>
 
           <p className="mb-4">
             Orders are confirmed upon payment. Accepted payment methods are
             specified at checkout.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">5.3 Shipping and Delivery</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            5.3 Shipping and Delivery
+          </h3>
 
           <p className="mb-4">
             Processing times are [X] business days. Delivery times may vary by
             location.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">5.4 Returns and Refunds</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            5.4 Returns and Refunds
+          </h3>
 
           <p className="mb-4">
             Returns are accepted for damaged or defective items within [X] days
@@ -217,7 +283,9 @@ export default function Services() {
             the error is ours.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">5.5 Our Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            5.5 Our Responsibilities
+          </h3>
 
           <p className="mb-4">
             We will ensure accurate product descriptions, process orders and
@@ -230,22 +298,28 @@ export default function Services() {
             6. Thrive East Studio – Photography, Video, and Creative Production
           </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.1 Services</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.1 Services
+          </h3>
 
-          <p className="mb-4"> 
+          <p className="mb-4">
             We offer professional photography, videography, and creative
             production services. Scope and deliverables are detailed in project
             contracts.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.2 Bookings and Payment</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.2 Bookings and Payment
+          </h3>
 
           <p className="mb-4">
             Bookings are confirmed upon deposit or full payment, with payment
             schedules outlined in project agreements.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.3 Cancellations and Refunds</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.3 Cancellations and Refunds
+          </h3>
 
           <p className="mb-4">
             Cancellations require [X] days’ notice. Deposits may be
@@ -253,21 +327,27 @@ export default function Services() {
             subject to availability.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.4 Client Obligations</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.4 Client Obligations
+          </h3>
 
           <p className="mb-4">
             Clients must provide accurate briefs, secure permissions (e.g.,
             location or model releases), and approve deliverables on time.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.5 Our Responsibilities</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.5 Our Responsibilities
+          </h3>
 
           <p className="mb-4">
             We will deliver services as agreed, communicate professionally, and
             handle client data securely.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">6.6 Intellectual Property</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.6 Intellectual Property
+          </h3>
 
           <p className="mb-4">
             Unless otherwise agreed in writing, Thrive East retains all
@@ -277,9 +357,13 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">7. Liability</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            7. Liability
+          </h2>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">7.1 Limitations</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            7.1 Limitations
+          </h3>
 
           <p className="mb-4">
             Thrive East and its entities are not liable for indirect,
@@ -287,7 +371,9 @@ export default function Services() {
             to the value of the service or product purchased.
           </p>
 
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">7.2 Force Majeure</h3>
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            7.2 Force Majeure
+          </h3>
 
           <p className="mb-4">
             We are not liable for delays or failures resulting from events
@@ -296,7 +382,9 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">8. Privacy Policy (Summary)</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            8. Privacy Policy (Summary)
+          </h2>
 
           <p className="mb-4">
             We collect only the data necessary to deliver our services. We do
@@ -305,7 +393,9 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">9. Intellectual Property</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            9. Intellectual Property
+          </h2>
 
           <p className="mb-4">
             All designs, photos, videos, text, and branding are the intellectual
@@ -315,7 +405,9 @@ export default function Services() {
           </p>
         </section>
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">10. Dispute Resolution</h2>
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            10. Dispute Resolution
+          </h2>
 
           <p className="mb-4">
             We encourage open communication and amicable resolution of disputes.

@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import facebookIcon from "../assets/icons/facebook.svg"
+import xIcon from "../assets/icons/x.svg"
+import instagramIcon from "../assets/icons/instagram.svg"
 
 export default function Footer() {
   return (
@@ -62,13 +65,13 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-gray-400">
-                Facebook
+                <img src={facebookIcon} alt="Facebook" />
               </a>
               <a href="#" className="hover:text-gray-400">
-                Twitter
+                <img src={xIcon} alt="Twitter" />
               </a>
               <a href="#" className="hover:text-gray-400">
-                Instagram
+                <img src={instagramIcon} alt="Instagram" />
               </a>
             </div>
           </div>
