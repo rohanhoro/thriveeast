@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <div className="from-black/70 bg-linear-to-r">
-        <div className="max-w-6xl mx-auto h-160  ">
+        <div className="max-w-6xl mx-auto h-160 max-md:h-screen  ">
           <div className="max-w-2xl py-16 px-12 ">
             <h1 className="text-6xl text-white mb-8 font-[Playfair]">
               Hybrid lifestyle ecosystem
@@ -27,8 +27,23 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className=" bg-[#043029]">
-        <div className=" flex gap-4 max-w-6xl mx-auto py-16 px-12">
+      <div className=" bg-secondary">
+        <div className=" flex max-xs:flex-col gap-4 max-w-6xl mx-auto py-16 px-12">
+          <HoverCard
+            title={"The Eastside Chronicles"}
+            content={"Event Management"}
+            image={event}
+          />
+          <HoverCard
+            title={"House of Flicks"}
+            content={"Designing and Production"}
+            image={studio}
+          />
+          <HoverCard
+            title={"Thrive Store"}
+            content={"Curated and Personalized Gifting"}
+            image={gift}
+          />
           <HoverCard
             title={"EastNest Property Care"}
             content={"Property Care and Management"}
@@ -38,21 +53,6 @@ export default function Home() {
             title={"EASTNEST"}
             content={"Curated Homestays and Airbnb"}
             image={homestay}
-          />
-          <HoverCard
-            title={"The Eastside Chronicles"}
-            content={"Event Management"}
-            image={event}
-          />
-          <HoverCard
-            title={"Thrive East Studios"}
-            content={"Designing and Production"}
-            image={studio}
-          />
-          <HoverCard
-            title={"Thrive Kits"}
-            content={"Curated and Personalized Gifting"}
-            image={gift}
           />
         </div>
       </div>

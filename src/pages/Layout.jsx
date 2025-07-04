@@ -27,7 +27,7 @@ export default function Layout() {
         <div>
           <img src={logo} alt="" width={72} />
         </div>
-        <nav className={`bg-secondary py-4 px-6  flex gap-14 text-white max-md:pl-22 max-md:w-[50%] max-md:pt-16  max-md:flex-col max-md:absolute max-md:h-screen max-sm:pl-12 max-xs:w-[70%] ${menuOpen ? "top-0 right-0":"top-0 hidden" } `}>
+        <nav className={`bg-secondary py-4 px-6  flex gap-14 text-white max-md:pl-22 max-md:w-[50%] max-md:pt-16  max-md:flex-col max-md:absolute max-md:h-screen max-sm:pl-12 max-xs:w-[70%] ${menuOpen ? "top-0 right-0":"max-md:hidden" } `}>
           <Link className="hover:text-primary" onClick={() => setMenuOpen(false)} to="/">
             Home
           </Link>
