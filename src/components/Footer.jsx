@@ -12,22 +12,22 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-2">Company</h4>
             <ul>
               <li>
-                <Link to="/aboutus" className="hover:text-gray-400">
+                <Link to="/aboutus" className="hover:text-primary">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-gray-400">
+                <Link to="/services" className="hover:text-primary">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="hover:text-gray-400">
+                <Link to="/projects" className="hover:text-primary">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="/team" className="hover:text-gray-400">
+                <Link to="/team" className="hover:text-primary">
                   Meet Our Team
                 </Link>
               </li>
@@ -38,12 +38,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-2">Support</h4>
             <ul>
               <li>
-                <Link to="/faq" className="hover:text-gray-400">
+                <Link to="/faq" className="hover:text-primary">
                   FAQ
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-gray-400">
+                <Link to="/contact" className="hover:text-primary">
                   Contact
                 </Link>
               </li>
@@ -54,12 +54,12 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-2">Legal</h4>
             <ul>
               <li>
-                <Link to="/privacy" className="hover:text-gray-400">
+                <Link to="/privacy" className="hover:text-primary">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms" className="hover:text-gray-400">
+                <Link to="/terms" className="hover:text-primary">
                   Terms of Service
                 </Link>
               </li>
@@ -68,14 +68,14 @@ export default function Footer() {
 
           <div>
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-gray-400">
+            <div className="flex space-x-4 -ml-2">
+              <a href="#" className="hover:text-primary">
                 <img src={facebookIcon} alt="Facebook" />
               </a>
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-primary">
                 <img src={xIcon} alt="Twitter" />
               </a>
-              <a href="#" className="hover:text-gray-400">
+              <a href="#" className="hover:text-primary">
                 <img src={instagramIcon} alt="Instagram" />
               </a>
             </div>

@@ -4,6 +4,8 @@
 
 @theme {
   --color-primary: #cdad6c;
-  --color-secondary: #770000;
+  --color-secondary: #043029;
   --color-tertiary: #8f6535;
+
+  --breakpoint-xs: 30rem;
 }
