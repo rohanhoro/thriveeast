@@ -1,8 +1,8 @@
-import event from "../assets/event_small.jpg";
-import gift from "../assets/gift_small.jpg";
+import event from "../assets/event.jpg";
+import store from "../assets/store.jpg";
 import homestay from "../assets/homestay_small.jpg";
 import property from "../assets/property_small.jpg";
-import studio from "../assets/studio_small.jpg";
+import studio from "../assets/studio.jpg";
 import Button from "../components/Button";
 import HoverCard from "../components/HoverCard";
 
@@ -23,7 +23,7 @@ export default function Home() {
               Our Studio turns your ideas into art — with creative direction and
               design that whisper elegance at every turn.
             </h4>
-            <Button text={"Book a free consultation"} />
+            <Button text={"Book a free consultation"} link={"/contact"} />
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ export default function Home() {
           <HoverCard
             title={"Thrive Store"}
             content={"Curated and Personalized Gifting"}
-            image={gift}
+            image={store}
           />
           <HoverCard
             title={"EastNest Property Care"}

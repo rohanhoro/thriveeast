@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./pages/AboutUs";
+import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Privacy from "./pages/Privacy";
@@ -34,10 +35,14 @@ const routes = [
     path: "privacy",
     element: <Privacy />,
   },
+  {
+    id: 6,
+    path: "contact",
+    element: <ContactUs />,
+  },
 ];
 
 function App() {
-
   return (
     <Router>
       <Routes>
