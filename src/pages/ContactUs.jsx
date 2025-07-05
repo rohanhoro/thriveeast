@@ -4,11 +4,11 @@ import phoneIcon from "../assets/icons/phone.svg";
 export default function ContactUs() {
   return (
     <div className="flex bg-secondary text-white h-screen pt-16">
-      <div className="flex max-w-6xl mx-auto text-justify px-12 my-8 gap-12">
-        <div className="w-[50%] h-100 overflow-hidden">
-          <img src={contact} alt=""/>
+      <div className="flex max-w-6xl mx-auto text-justify px-12 my-8 gap-12 max-sm:flex-col">
+        <div className="w-[50%] h-100 overflow-hidden max-sm:w-full">
+          <img src={contact} alt="Contact Us Image"/>
         </div>
-        <div className="w-[50%] ">
+        <div className="w-[50%] max-sm:w-full ">
           <div className="font-medium text-5xl mb-4">Contact Us</div>
           <div className="mb-8">
             We’d love to hear from you. Whether you’re planning an unforgettable
@@ -29,7 +29,7 @@ export default function ContactUs() {
             <a href="tel:+919678039205">+91-9678039205</a>
           </div>
           <a
-            className="font-bold text-2xl"
+            className="font-bold text-2xl text-primary"
             href="https://forms.gle/a9Fg6geSZdutAf3M9"
           >
             Get a Quote
