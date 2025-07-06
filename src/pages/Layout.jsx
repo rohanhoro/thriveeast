@@ -6,10 +6,6 @@ import logo from "../assets/logo_xs.png";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import useScrollToTop from "../hooks/useScrollToTop";
-import AboutUs from "./AboutUs";
-import Home from "./Home";
-import Projects from "./Projects";
-import Services from "./Services";
 
 export default function Layout() {
   const [menuOpen, setMenuOpen] = useState();
@@ -29,40 +25,52 @@ export default function Layout() {
             <img src={logo} alt="" width={72} />
           </Link>
         </div>
+
         <nav
-          className={`bg-secondary py-4 px-6  flex gap-14 text-white max-md:pl-22 max-md:w-[50%] max-md:pt-16  max-md:flex-col max-md:absolute max-md:h-screen max-sm:pl-12 max-xs:w-[70%] ${
+          className={`bg-black/50 text-white flex justify-end max-md:w-screen max-md:absolute max-md:h-screen ${
             menuOpen ? "top-0 right-0" : "max-md:hidden"
           } `}
+          onClick={() => setMenuOpen(false)}
         >
-          <Link
-            className="hover:text-primary"
-            onClick={() => setMenuOpen(false)}
-            to="/"
-          >
-            Home
-          </Link>
-          <Link
-            className="hover:text-primary"
-            onClick={() => setMenuOpen(false)}
-            to="Projects"
-          >
-            Projects
-          </Link>
-          <Link
-            className="hover:text-primary"
-            onClick={() => setMenuOpen(false)}
-            to="Services"
-          >
-            Service
-          </Link>
-          <Link
-            className="hover:text-primary"
-            onClick={() => setMenuOpen(false)}
-            to="AboutUs"
-          >
-            About Us
-          </Link>
+          <div className={`bg-secondary flex gap-14 py-4 px-6 max-md:px-22 max-md:w-[50%] max-md:pt-16 max-md:flex-col max-sm:px-12  max-xs:w-[70%] `}>
+            <Link
+              className="hover:text-primary"
+              onClick={() => setMenuOpen(false)}
+              to="/"
+            >
+              Home
+            </Link>
+            <Link
+              className="hover:text-primary"
+              onClick={() => setMenuOpen(false)}
+              to="projects"
+            >
+              Projects
+            </Link>
+            <Link
+              className="hover:text-primary"
+              onClick={() => setMenuOpen(false)}
+              to="services"
+            >
+              Service
+            </Link>
+            <Link
+              className="hover:text-primary"
+              onClick={() => setMenuOpen(false)}
+              to="aboutus"
+            >
+              About Us
+            </Link>
+            <Link
+              className="hover:text-primary text-primary font-bold md:hidden"
+              onClick={() => setMenuOpen(false)}
+              to="contact"
+            >
+              Contact Us
+            </Link>
+          </div>
         </nav>
+
         <Hamburger
           stroke={"white"}
           className={"md:hidden ml-auto"}

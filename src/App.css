@@ -5,7 +5,9 @@
 @theme {
   --color-primary: #cdad6c;
   --color-secondary: #043029;
-  --color-tertiary: #8f6535;
+  --color-tertiary: #04382f;
+  --color-highlight: #8f6535;
 
   --breakpoint-xs: 30rem;
+  --breakpoint-3xl: 120rem
 }

@@ -12,17 +12,17 @@ import TermsAndConditions from "./pages/TermsAndConditions";
 const routes = [
   {
     id: 1,
-    path: "Projects",
+    path: "projects",
     element: <Projects />,
   },
   {
     id: 2,
-    path: "Services",
+    path: "services",
     element: <Services />,
   },
   {
     id: 3,
-    path: "AboutUs",
+    path: "aboutus",
     element: <AboutUs />,
   },
   {

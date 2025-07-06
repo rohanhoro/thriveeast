@@ -1,13 +1,21 @@
 import { Link } from "react-router-dom";
-import facebookIcon from "../assets/icons/facebook.svg"
-import xIcon from "../assets/icons/x.svg"
-import instagramIcon from "../assets/icons/instagram.svg"
+import facebookIcon from "../assets/icons/facebook.svg";
+import instagramIcon from "../assets/icons/instagram.svg";
+import xIcon from "../assets/icons/x.svg";
+import logo from "../assets/logo_sm.png";
 
 export default function Footer() {
   return (
     <footer className="bg-white text-black py-8">
       <div>
-        <div className="max-w-6xl mx-auto px-12 m-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 col-span-4 gap-8">
+        <div className="max-w-6xl mx-auto justify-start px-12 m-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 col-span-4 gap-8">
+          <div>
+            <Link to="/">
+              <img src={logo} alt="Logo" width={128}/>
+            </Link>
+          </div>
+
+          {/* Company section */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Company</h4>
             <ul>
@@ -34,6 +42,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Support section */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Support</h4>
             <ul>
@@ -50,6 +59,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Legal section */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Legal</h4>
             <ul>
@@ -66,6 +76,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Social media links */}
           <div>
             <h4 className="text-lg font-semibold mb-2">Follow Us</h4>
             <div className="flex space-x-4 -ml-2">
