@@ -33,23 +33,7 @@ export default function AboutUs() {
           <h3 className="text-4xl font-bold my-8 text-teal-800">
             Our Ecosystem
           </h3>
-          <div>
-            <h4 className="text-xl font-medium mb-1">EastNest Property Care</h4>
-            <p className="mb-4">“Your Property, Our Priority”</p>
-            <p className="mb-4">
-              Hassle-free property management for local and NRI homeowners.
-              Maintenance, guest care, and peace of mind delivered with
-              elegance.
-            </p>
-          </div>
-          <div>
-            <h4 className="text-xl font-medium mb-1">EastNest</h4>
-            <p className="mb-4">“Boutique Homestays with Soul”</p>
-            <p className="mb-4">
-              Handpicked stays rooted in local culture, designed for travelers
-              who seek to belong.
-            </p>
-          </div>
+
           <div>
             <h4 className="text-xl font-medium mb-1">
               The Eastside Chronicles
@@ -70,11 +54,28 @@ export default function AboutUs() {
             </p>
           </div>
           <div>
-            <h4 className="text-xl font-medium mb-1">Thrive Kits</h4>
-            <p className="mb-4">“Curated Self-Care & Gifting Boxes”</p>
-            <p>
+            <h4 className="text-xl font-medium mb-1">Thrive Store</h4>
+            <p className="mb-4">One stop E-Commerce store</p>
+            <p className="mb-4">
               Emotions, beautifully boxed. Bespoke gifts, perfumes, and
               self-care rituals designed to elevate everyday moments.
+            </p>
+          </div>
+          <div>
+            <h4 className="text-xl font-medium mb-1">EastNest Property Care</h4>
+            <p className="mb-4">“Your Property, Our Priority”</p>
+            <p className="mb-4">
+              Hassle-free property management for local and NRI homeowners.
+              Maintenance, guest care, and peace of mind delivered with
+              elegance.
+            </p>
+          </div>
+          <div>
+            <h4 className="text-xl font-medium mb-1">EastNest</h4>
+            <p className="mb-4">“Boutique Homestays with Soul”</p>
+            <p className="mb-4">
+              Handpicked stays rooted in local culture, designed for travelers
+              who seek to belong.
             </p>
           </div>
         </div>
@@ -86,9 +87,11 @@ export default function AboutUs() {
             booking a stay, caring for your property, or telling your story —
             we’re here to make it beautiful.
           </p>
-          <h3 className="text-4xl font-bold my-8 text-teal-800">Let’s Thrive Together.</h3>
+          <h3 className="text-4xl font-bold my-8 text-teal-800">
+            Let’s Thrive Together.
+          </h3>
         </div>
-        <Button text={"Book a Free Consultation"}/>
+        <Button text={"Book a Free Consultation"} link={"/contact"} />
       </div>
     </div>
   );
