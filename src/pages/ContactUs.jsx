@@ -39,14 +39,24 @@ export default function ContactUs() {
         </div>
         <div className="flex flex-col items-center justify-center my-12 mx-4">
           <h3 className="font-medium text-5xl mb-8">Our Location</h3>
-          <div className=" w-full h-80 md:h-112 overflow-hidden rounded-xl border-4 border-gray-900">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d445.7783966542971!2d92.79334463513209!3d26.64120792624906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDM4JzI4LjMiTiA5MsKwNDcnMzYuMSJF!5e0!3m2!1sen!2sin!4v1751788141128!5m2!1sen!2sin"
-              className="w-full h-full"
-              allowFullScreen={false}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div className="w-full">
+            <div className=" w-full h-80 md:h-112 overflow-hidden rounded-xl border-4 border-gray-900 mb-2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d445.7783966542971!2d92.79334463513209!3d26.64120792624906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDM4JzI4LjMiTiA5MsKwNDcnMzYuMSJF!5e0!3m2!1sen!2sin!4v1751788141128!5m2!1sen!2sin"
+                className="w-full h-full"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div className="text-xl pl-2 transition-all duration-200">
+              <a
+                href="https://maps.app.goo.gl/3ugVUPBMrR7EARqG6?g_st=aw"
+                className="cursor-pointer active:text-primary  hover:text-primary"
+              >
+                Get directions &#8594;
+              </a>
+            </div>
           </div>
         </div>
       </div>
