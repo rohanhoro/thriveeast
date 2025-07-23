@@ -1,7 +1,7 @@
 import event from "../assets/event.jpg";
 import homestay from "../assets/homestay_small.jpg";
 import property from "../assets/property_small.jpg";
-import store from "../assets/store.jpg";
+// import store from "../assets/store.jpg";
 import studio from "../assets/studio.jpg";
 
 import ServiceCard from "../components/ServiceCard";
@@ -23,10 +23,11 @@ export default function Services() {
               elegance.
             </>
           }
+          cardLink={"chronicles"}
         />
         <ServiceCard
           cardImg={studio}
-          title={"HOUSE OF FLICKS"}
+          title={"THRIVE EAST STUDIO"}
           description={
             "House of Flicks is where your story comes to ife—beautifully and authentically. From cinematic films and commercial shoots to branded content and social media reels, we create visually compelling narratives that forge emotional connections and leave a lasting cultural impact. Rooted in Assamese heritage and infused with modern storytelling techniques, our work is crafted to be elegant, evocative, and unforgettable."
           }
@@ -35,8 +36,9 @@ export default function Services() {
               <b>House of Flicks</b> — Visuals that thrive.
             </>
           }
+          cardLink={"studio"}
         />
-        <ServiceCard
+        {/* <ServiceCard
           cardImg={store}
           title={"THRIVE STORE"}
           description={
@@ -47,7 +49,9 @@ export default function Services() {
               <b>Thrive Store</b> — Where Lifestyle Meets Convenience.
             </>
           }
-        />
+          cardLink={"thrivestore"}
+
+        /> */}
         <ServiceCard
           cardImg={property}
           title={"EASTNEST PROPERTY CARE"}
@@ -59,6 +63,7 @@ export default function Services() {
               <b>EastNest Property Care</b> — Your Property, Our Priority.
             </>
           }
+          cardLink={"propertycare"}
         />
         <ServiceCard
           cardImg={homestay}
@@ -71,6 +76,7 @@ export default function Services() {
               <b>EastNest</b> — Stay. Belong. Thrive.
             </>
           }
+          cardLink={"homestay"}
         />
       </div>
     </div>

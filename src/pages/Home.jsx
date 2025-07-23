@@ -1,7 +1,7 @@
 import event from "../assets/event.jpg";
 import homestay from "../assets/homestay_small.jpg";
 import property from "../assets/property_small.jpg";
-import store from "../assets/store.jpg";
+// import store from "../assets/store.jpg";
 import studio from "../assets/studio.jpg";
 import Button from "../components/Button";
 import HoverCard from "../components/HoverCard";
@@ -38,26 +38,35 @@ export default function Home() {
             title={"The Eastside Chronicles"}
             content={"Event Management and Artist Management"}
             image={event}
+            cardLink={"/services/chronicles"}
           />
           <HoverCard
-            title={"House of Flicks"}
+            title={"Thrive East Studio"}
             content={"Videography and editing"}
             image={studio}
+            cardLink={"/services/studio"}
+
           />
-          <HoverCard
+          {/* <HoverCard
             title={"Thrive Store"}
             content={"One stop E-Commerce store"}
             image={store}
-          />
+            cardLink={"/services/thrivestore"}
+
+          /> */}
           <HoverCard
             title={"EastNest Property Care"}
             content={"Property Care and Management"}
             image={property}
+            cardLink={"/services/propertycare"}
+
           />
           <HoverCard
             title={"EASTNEST"}
             content={"Curated Homestays and Airbnb"}
             image={homestay}
+            cardLink={"/services/homestay"}
+
           />
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Layout() {
 
   return (
     <div
-      className="relative min-h-screen bg-cover bg-c bg-fixed"
+      className="relative min-h-screen bg-cover bg-fixed"
       style={{
         backgroundImage: `url(${hero_bg})`,
       }}
