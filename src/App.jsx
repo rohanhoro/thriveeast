@@ -52,22 +52,22 @@ const routes = [
   },
   {
     id: 8,
-    path: "studio",
+    path: "/services/studio",
     element: <ThriveEastStudio />,
   },
   {
     id: 9,
-    path: "propertycare",
+    path: "/services/propertycare",
     element: <EastNestPropertyCare />,
   },
   {
     id: 10,
-    path: "thrivestore",
+    path: "/services/thrivestore",
     element: <ThriveStore />,
   },
   {
     id: 11,
-    path: "homestay",
+    path: "/services/homestay",
     element: <EastNestHomeStay />,
   },
 ];

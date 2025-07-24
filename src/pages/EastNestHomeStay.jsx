@@ -1,5 +1,9 @@
+import ComingSoon from "../components/ComingSoon";
+
 export default function EastNestHomeStay() {
   return (
-    <div>EastNestHomeStay</div>
-  )
+    <div>
+      <ComingSoon />
+    </div>
+  );
 }
