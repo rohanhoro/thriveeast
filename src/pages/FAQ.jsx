@@ -31,12 +31,16 @@ export default function FAQ() {
   return (
     <div className="bg-white">
       <div className=" max-w-2xl mx-auto px-4 py-10">
-        <h2 className="text-2xl font-bold text-center mb-6">Frequently Asked Questions (FAQs)</h2>
+        <h2 className="text-3xl text-teal-900 font-bold text-center pb-2 mb-6 border-b-2 border-[#c2a661]">
+          Frequently Asked Questions (FAQs)
+        </h2>
         <div className="space-y-6">
           {faqs.map((faq, index) => (
             <div key={index}>
-              <h3 className="text-lg font-semibold">{faq.question}</h3>
-              <p className="text-gray-700 mt-1">{faq.answer}</p>
+              <h3 className="text-lg font-semibold text-teal-900">
+                {faq.question}
+              </h3>
+              <p className="mt-1">{faq.answer}</p>
             </div>
           ))}
         </div>

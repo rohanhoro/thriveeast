@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
-import hero_bg from "../assets/buildings_bg.jpg";
+import hero_bg from "../assets/pool.jpg";
 import Hamburger from "../assets/Hamburger";
 import logo from "../assets/logo_xs.png";
 import Button from "../components/Button";
@@ -14,7 +14,7 @@ export default function Layout() {
 
   return (
     <div
-      className="relative min-h-screen bg-cover bg-fixed"
+      className="relative min-h-screen bg-cover bg-fixed bg-center"
       style={{
         backgroundImage: `url(${hero_bg})`,
       }}
