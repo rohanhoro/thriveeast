@@ -1,4 +1,4 @@
-import logo from "../assets/EastSideChroniclesLogo.svg";
+import logo from "../assets/EastSideChronicles.svg";
 import heroImg from "../assets/event2.jpg";
 import privateEventIcon from "../assets/icons/cake.svg";
 import marriageIcon from "../assets/icons/diamond.svg";
@@ -18,7 +18,7 @@ export default function EastSideChronicles() {
       >
         <div className="flex justify-center items-center h-full w-full bg-black/50">
           <img
-            className="h-20 max-xs:h-16"
+            className="w-95 max-xs:w-88"
             src={logo}
             alt="EastSide Chronicles Logo"
           />

@@ -15,7 +15,7 @@ export default function Services() {
           cardImg={event}
           title={"THE EASTSIDE CHRONICLES"}
           description={
-            "The Eastside Chronicles transforms life&apos;s most meaningful moments into unforgettable, artfully curated celebrations. From weddings and proposals, concerts, corporate gatherings, and music events, we design experiences that blend refined elegance with authentic local artistry."
+            "The Eastside Chronicles transforms life's most meaningful moments into unforgettable, artfully curated celebrations. From weddings and proposals, concerts, corporate gatherings, and music events, we design experiences that blend refined elegance with authentic local artistry."
           }
           tagline={
             <>

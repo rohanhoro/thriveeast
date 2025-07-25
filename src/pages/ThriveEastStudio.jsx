@@ -1,9 +1,9 @@
-import logo from "../assets/EastSideChroniclesLogo.svg";
-import heroImg from "../assets/event2.jpg";
-import privateEventIcon from "../assets/icons/cake.svg";
-import marriageIcon from "../assets/icons/diamond.svg";
-import eventIcon from "../assets/icons/event.svg";
-import proposalIcon from "../assets/icons/heartcalender.svg";
+import logo from "../assets/ThriveEastStudio2.svg";
+import heroImg from "../assets/studio2.jpg";
+import adsIcon from "../assets/icons/megaphone.svg";
+import showreelIcon from "../assets/icons/reel.svg";
+import marketingIcon from "../assets/icons/chart.svg";
+import artistIcon from "../assets/icons/mic.svg";
 import Card from "../components/Card";
 import ContactSection from "../components/ContactSection";
 
@@ -11,14 +11,14 @@ export default function ThriveEastStudio() {
   return (
     <div className="bg-secondary text-white">
       <div
-        className="flex h-80 max-xs:h-60 bg-center mb-14 "
+        className="flex h-80 max-xs:h-60 bg-center bg-cover mb-14 "
         style={{
           backgroundImage: `url(${heroImg})`,
         }}
       >
-        <div className="flex justify-center items-center h-full w-full bg-black/50">
+        <div className="flex justify-center items-center h-full w-full bg-white/40">
           <img
-            className="h-20 max-xs:h-16"
+            className=" w-95 max-xs:w-88"
             src={logo}
             alt="EastSide Chronicles Logo"
           />
@@ -30,36 +30,35 @@ export default function ThriveEastStudio() {
           Our Core Services
         </div>
         <div className=" max-sm:w-auto w-140 text-center mx-8 mb-16">
-          Whatever the occasion, our diverse range of event management services
-          is here to make your moments truly special and worry-free.
+          Thrive Studio is your creative and strategic partner for visual storytelling, brand building, and talent development. From cinematic productions to artist representation, we help ideas come alive.
         </div>
         <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-8 mb-16">
           <Card
-            icon={eventIcon}
-            title={"Event Management"}
+            icon={adsIcon}
+            title={"Advertisements"}
             description={
-              "Comprehensive planning and coordination for events of all sizes, ensuring a seamless and memorable experience."
+              "Concept-to-screen ad films, digital campaigns, and branded content that speaks to your audience"
             }
           />
           <Card
-            icon={marriageIcon}
-            title={"Marriages"}
+            icon={showreelIcon}
+            title={"Showreels"}
             description={
-              "Expert wedding planning services to bring your dream celebration to life, from traditional to modern ceremonies."
+              "Slick, story-driven video content — from corporate films and music videos to highlight reels and short-form content."
             }
           />
           <Card
-            icon={proposalIcon}
-            title={"Proposals & Engagements"}
+            icon={marketingIcon}
+            title={"Production & Marketing"}
             description={
-              "Romantic and personalized proposal planning to create the perfect 'yes' moment."
+              "Targeted content marketing, social media strategy, and campaign execution to grow your brand's voice."
             }
           />
           <Card
-            icon={privateEventIcon}
-            title={"Private Events & Parties"}
+            icon={artistIcon}
+            title={"Artist management"}
             description={
-              "Birthdays, anniversaries, baby showers, housewarmings — we handle it all with flair and finesse."
+              "End-to-end talent curation, bookings, branding, and career shaping for emerging and established artists."
             }
           />
         </div>
