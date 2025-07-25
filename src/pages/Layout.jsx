@@ -52,7 +52,7 @@ export default function Layout() {
               onClick={() => setMenuOpen(false)}
               to="services"
             >
-              Service
+              Services
             </Link>
             <Link
               className="hover:text-primary"

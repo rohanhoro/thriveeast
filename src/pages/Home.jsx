@@ -1,6 +1,6 @@
 import event from "../assets/event.jpg";
-import homestay from "../assets/homestay_small.jpg";
-import property from "../assets/property_small.jpg";
+import homestay from "../assets/homestay.jpg";
+import property from "../assets/property.jpg";
 // import store from "../assets/store.jpg";
 import studio from "../assets/studio.jpg";
 import Button from "../components/Button";

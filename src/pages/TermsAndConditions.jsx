@@ -20,14 +20,9 @@ export default function Services() {
         </p>
         <ul className="list-disc pl-6 mb-8 space-y-1">
           <li>The Eastside Chronicles</li>
-
-          <li>EastNest</li>
-
-          <li>EastNest Property Care</li>
-
-          <li>Thrive Kits</li>
-
           <li>Thrive East Studio</li>
+          <li>EastNest Property Care</li>
+          <li>EastNest</li>
         </ul>
         <section className="mb-10">
           <h2 className="text-2xl font-semibold text-teal-900 mb-2">
@@ -59,9 +54,7 @@ export default function Services() {
             1.3 Governing Law
           </h3>
 
-          <p className="mb-4">
-            These Terms are governed by the laws of [Your State/Country].
-          </p>
+          <p className="mb-4">These Terms are governed by the laws of India.</p>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
             1.4 Contact
@@ -80,9 +73,9 @@ export default function Services() {
               <a href="tel:+919678039205">Phone: +91-9678039205</a>
             </li>
 
-            <li>Website: [your-website.com]</li>
+            <li>Website: www.thrive-east.com</li>
 
-            <li>Office Address: [your-office-address]</li>
+            <li>Office Address: Mazgaon, Tezpur</li>
           </ul>
         </section>
         <section className="mb-10">
@@ -140,53 +133,65 @@ export default function Services() {
         </section>
         <section className="mb-10">
           <h2 className="text-2xl font-semibold text-teal-900 mb-2">
-            3. EastNest – Homestay Experiences
+            6. Thrive East Studio – Photography, Video, and Creative Production
           </h2>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            3.1 Services
+            6.1 Services
           </h3>
 
           <p className="mb-4">
-            We facilitate bookings and management of curated homestay
-            accommodations, as described in property listings or confirmations.
+            We offer professional photography, videography, and creative
+            production services. Scope and deliverables are detailed in project
+            contracts.
           </p>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            3.2 Bookings and Payment
+            6.2 Bookings and Payment
           </h3>
 
           <p className="mb-4">
-            Bookings require payment as per listing or agreement. Accepted
-            payment methods are specified on our website.
+            Bookings are confirmed upon deposit or full payment, with payment
+            schedules outlined in project agreements.
           </p>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            3.3 Cancellations and Refunds
+            6.3 Cancellations and Refunds
           </h3>
 
           <p className="mb-4">
-            Cancellation policies follow the listing terms (e.g., flexible,
-            moderate, strict). Refunds are processed accordingly. Damage
-            deposits may be retained for verified damages.
+            Cancellations require 10 days’ notice. Deposits may be
+            non-refundable for short-notice cancellations. Rescheduling is
+            subject to availability.
           </p>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            3.4 Guest Responsibilities
+            6.4 Client Obligations
           </h3>
 
           <p className="mb-4">
-            Guests must comply with house rules, respect local laws, and report
-            any damages promptly.
+            Clients must provide accurate briefs, secure permissions (e.g.,
+            location or model releases), and approve deliverables on time.
           </p>
 
           <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            3.5 Our Responsibilities
+            6.5 Our Responsibilities
           </h3>
 
           <p className="mb-4">
-            We will ensure accurate listing information, facilitate check-in and
-            check-out, and address guest concerns professionally.
+            We will deliver services as agreed, communicate professionally, and
+            handle client data securely.
+          </p>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            6.6 Intellectual Property
+          </h3>
+
+          <p className="mb-4">
+            Unless otherwise agreed in writing, Thrive East retains all
+            copyright to produced content. Usage rights are granted per project
+            contract (e.g., personal, commercial, exclusive). Unauthorized
+            reproduction or resale is prohibited.
           </p>
         </section>
         <section className="mb-10">
@@ -243,6 +248,57 @@ export default function Services() {
         </section>
         <section className="mb-10">
           <h2 className="text-2xl font-semibold text-teal-900 mb-2">
+            3. EastNest – Homestay Experiences
+          </h2>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.1 Services
+          </h3>
+
+          <p className="mb-4">
+            We facilitate bookings and management of curated homestay
+            accommodations, as described in property listings or confirmations.
+          </p>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.2 Bookings and Payment
+          </h3>
+
+          <p className="mb-4">
+            Bookings require payment as per listing or agreement. Accepted
+            payment methods are specified on our website.
+          </p>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.3 Cancellations and Refunds
+          </h3>
+
+          <p className="mb-4">
+            Cancellation policies follow the listing terms (e.g., flexible,
+            moderate, strict). Refunds are processed accordingly. Damage
+            deposits may be retained for verified damages.
+          </p>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.4 Guest Responsibilities
+          </h3>
+
+          <p className="mb-4">
+            Guests must comply with house rules, respect local laws, and report
+            any damages promptly.
+          </p>
+
+          <h3 className="text-xl font-semibold text-teal-800 mb-1">
+            3.5 Our Responsibilities
+          </h3>
+
+          <p className="mb-4">
+            We will ensure accurate listing information, facilitate check-in and
+            check-out, and address guest concerns professionally.
+          </p>
+        </section>
+        {/* <section className="mb-10">
+          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
             5. Thrive Kits – Lifestyle Products
           </h2>
 
@@ -292,70 +348,7 @@ export default function Services() {
             returns promptly, and maintain quality packaging and shipping
             standards.
           </p>
-        </section>
-        <section className="mb-10">
-          <h2 className="text-2xl font-semibold text-teal-900 mb-2">
-            6. Thrive East Studio – Photography, Video, and Creative Production
-          </h2>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.1 Services
-          </h3>
-
-          <p className="mb-4">
-            We offer professional photography, videography, and creative
-            production services. Scope and deliverables are detailed in project
-            contracts.
-          </p>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.2 Bookings and Payment
-          </h3>
-
-          <p className="mb-4">
-            Bookings are confirmed upon deposit or full payment, with payment
-            schedules outlined in project agreements.
-          </p>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.3 Cancellations and Refunds
-          </h3>
-
-          <p className="mb-4">
-            Cancellations require [X] days’ notice. Deposits may be
-            non-refundable for short-notice cancellations. Rescheduling is
-            subject to availability.
-          </p>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.4 Client Obligations
-          </h3>
-
-          <p className="mb-4">
-            Clients must provide accurate briefs, secure permissions (e.g.,
-            location or model releases), and approve deliverables on time.
-          </p>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.5 Our Responsibilities
-          </h3>
-
-          <p className="mb-4">
-            We will deliver services as agreed, communicate professionally, and
-            handle client data securely.
-          </p>
-
-          <h3 className="text-xl font-semibold text-teal-800 mb-1">
-            6.6 Intellectual Property
-          </h3>
-
-          <p className="mb-4">
-            Unless otherwise agreed in writing, Thrive East retains all
-            copyright to produced content. Usage rights are granted per project
-            contract (e.g., personal, commercial, exclusive). Unauthorized
-            reproduction or resale is prohibited.
-          </p>
-        </section>
+        </section> */}
         <section className="mb-10">
           <h2 className="text-2xl font-semibold text-teal-900 mb-2">
             7. Liability

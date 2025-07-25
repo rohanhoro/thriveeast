@@ -27,14 +27,9 @@ const PrivacyPolicy = () => {
 
           <ul className="list-disc pl-6 space-y-1">
             <li>The Eastside Chronicles</li>
-
-            <li>EastNest</li>
-
-            <li>EastNest Property Care</li>
-
-            <li>Thrive Kits</li>
-
             <li>Thrive East Studio</li>
+            <li>EastNest Property Care</li>
+            <li>EastNest</li>
           </ul>
         </section>
 
@@ -252,9 +247,9 @@ const PrivacyPolicy = () => {
               <a href="tel:+919678039205">Phone: +91-9678039205</a>
             </li>
 
-            <li>Website: [your-website.com]</li>
+            <li>Website: www.thrive-east.com</li>
 
-            <li>Office Address: [your-office-address]</li>
+            <li>Office Address: Mazgaon, Tezpur</li>
           </ul>
         </section>
       </div>{" "}

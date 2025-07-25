@@ -53,14 +53,14 @@ export default function AboutUs() {
               design frames that speak your brand’s truth and soul.
             </p>
           </div>
-          <div>
+          {/* <div>
             <h4 className="text-xl font-medium mb-1">Thrive Store</h4>
             <p className="mb-4">One stop E-Commerce store</p>
             <p className="mb-4">
               Emotions, beautifully boxed. Bespoke gifts, perfumes, and
               self-care rituals designed to elevate everyday moments.
             </p>
-          </div>
+          </div> */}
           <div>
             <h4 className="text-xl font-medium mb-1">EastNest Property Care</h4>
             <p className="mb-4">“Your Property, Our Priority”</p>

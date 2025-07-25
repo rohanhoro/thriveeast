@@ -5,8 +5,10 @@ import ContactUs from "./pages/ContactUs";
 import EastNestHomeStay from "./pages/EastNestHomeStay";
 import EastNestPropertyCare from "./pages/EastNestPropertyCare";
 import EastSideChronicles from "./pages/EastSideChronicles";
+import FAQ from "./pages/FAQ";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
+import NoContent from "./pages/NoContent";
 import Privacy from "./pages/Privacy";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
@@ -70,6 +72,11 @@ const routes = [
     path: "/services/homestay",
     element: <EastNestHomeStay />,
   },
+  {
+    id: 12,
+    path: "/faq",
+    element: <FAQ />,
+  },
 ];
 
 function App() {
@@ -82,6 +89,7 @@ function App() {
             <Route key={route.id} path={route.path} element={route.element} />
           ))}
         </Route>
+        <Route path="*" element={<NoContent />} />
       </Routes>
     </Router>
   );

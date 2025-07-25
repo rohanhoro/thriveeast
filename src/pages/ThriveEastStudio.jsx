@@ -1,4 +1,4 @@
-import logo from "../assets/ThriveEastStudio2.svg";
+import logo from "../assets/ThriveEastStudio.svg";
 import heroImg from "../assets/studio2.jpg";
 import adsIcon from "../assets/icons/megaphone.svg";
 import showreelIcon from "../assets/icons/reel.svg";
@@ -16,7 +16,7 @@ export default function ThriveEastStudio() {
           backgroundImage: `url(${heroImg})`,
         }}
       >
-        <div className="flex justify-center items-center h-full w-full bg-white/40">
+        <div className="flex justify-center items-center h-full w-full bg-black/50 backdrop-blur-xs">
           <img
             className=" w-95 max-xs:w-88"
             src={logo}
